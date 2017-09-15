@@ -2,3 +2,5 @@
 out/
 #to ignore some file types...
 filetypesIgnoreExampleFolder/*.txt
+#to gignore exact file
+.idea/workspace.xml
