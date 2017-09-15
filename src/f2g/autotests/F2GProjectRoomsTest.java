@@ -65,6 +65,7 @@ public class F2GProjectRoomsTest {
         System.out.println("Hello new branch");
         System.out.println("Branch master");
         System.out.println("Bugaga");
+        System.out.println("Bugaga by user 2");
     }
 
 
