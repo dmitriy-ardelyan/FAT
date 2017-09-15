@@ -1,0 +1,4 @@
+#here we ignore out folder we do not need these class files compiled during test builds.
+out/
+#to ignore some file types...
+filetypesIgnoreExampleFolder/*.txt
