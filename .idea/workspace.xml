@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="720d8422-0bca-4440-8209-bbaa0275beaf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BrowserDrivers/IEDriverServer.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BrowserDrivers/IEDriverServer32.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BrowserDrivers/MicrosoftWebDriver.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BrowserDrivers/chromedriver.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BrowserDrivers/geckodriver.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/selenium.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/F2GAutoTests.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/f2g/autotests/F2GIEAuth.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/f2g/autotests/F2GProjectRoomsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/f2g/autotests/F2GServerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/f2g/autotests/F2GTestsLib.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/f2g/autotests/SendKeysCondition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/f2g/autotests/trash/F2GAdminAuthentication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/f2g/autotests/trash/F2GAutoTests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/f2g/autotests/trash/F2GChromeAuth.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/f2g/autotests/trash/F2GFFAuthTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/f2g/autotests/trash/LessonsCheckTest.java" />
-    </list>
+    <list default="true" id="720d8422-0bca-4440-8209-bbaa0275beaf" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GProjectRoomsTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+              <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -643,9 +620,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="F2GProjectRoomsTest - 2017.09.14 at 07h 52m 25s.xml">
-      <configuration name="F2GProjectRoomsTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="F2GProjectRoomsTest - 2017.09.14 at 07h 56m 04s.xml">
       <configuration name="F2GProjectRoomsTest" configurationId="TestNG" />
     </history-entry>
@@ -653,6 +627,9 @@
       <configuration name="F2GProjectRoomsTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="F2GProjectRoomsTest_(1) - 2017.09.15 at 03h 27m 31s.xml">
+      <configuration name="F2GProjectRoomsTest (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="F2GProjectRoomsTest_(1) - 2017.09.15 at 03h 36m 02s.xml">
       <configuration name="F2GProjectRoomsTest (1)" configurationId="TestNG" />
     </history-entry>
     <history-entry file="F2GServerTest - 2017.09.14 at 06h 20m 21s.xml">
@@ -1159,7 +1136,7 @@
     <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GProjectRoomsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
