@@ -18,12 +18,10 @@
       <file leaf-file-name="F2GProjectRoomsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GProjectRoomsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="66" column="34" lean-forward="false" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+            <state relative-caret-position="680">
+              <caret line="67" column="44" lean-forward="false" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1505486197350" expanded="false" signature="3398:3408" ph=" { " />
-                <marker date="1505486197350" expanded="false" signature="3422:3428" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -32,7 +30,7 @@
       <file leaf-file-name="F2GServerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GServerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="2108">
               <caret line="427" column="95" lean-forward="false" selection-start-line="423" selection-start-column="8" selection-end-line="427" selection-end-column="95" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -143,60 +141,18 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="F2GAutoTests" />
+              <option name="myItemId" value="FURAT" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="F2GAutoTests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="F2GAutoTests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="F2GAutoTests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="F2GAutoTests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="autotests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="F2GAutoTests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="F2GAutoTests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrowserDrivers" />
+              <option name="myItemId" value="FURAT" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -656,19 +612,18 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40611354" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40611354" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -685,6 +640,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -960,34 +916,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/selenium-java-3.5.3/client-combined-3.5.3-nodeps.jar!/org/openqa/selenium/By.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="85" column="22" lean-forward="false" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/selenium-java-3.5.3/client-combined-3.5.3-nodeps.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="333" column="22" lean-forward="false" selection-start-line="333" selection-start-column="22" selection-end-line="333" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/selenium-java-3.5.3/client-combined-3.5.3-nodeps.jar!/org/openqa/selenium/Alert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/selenium-java-3.5.3/client-combined-3.5.3-nodeps.jar!/org/openqa/selenium/remote/CapabilityType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/selenium-java-3.5.3/client-combined-3.5.3-nodeps.jar!/org/openqa/selenium/By.class" />
+    <entry file="jar://C:/selenium-java-3.5.3/client-combined-3.5.3-nodeps.jar!/org/openqa/selenium/remote/RemoteWebDriver.class" />
+    <entry file="jar://C:/selenium-java-3.5.3/client-combined-3.5.3-nodeps.jar!/org/openqa/selenium/Alert.class" />
+    <entry file="jar://C:/selenium-java-3.5.3/client-combined-3.5.3-nodeps.jar!/org/openqa/selenium/remote/CapabilityType.class" />
     <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GDemoAuth.java" />
     <entry file="file://$PROJECT_DIR$/src/f2g/autotests/trash/F2GFFAuthTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1018,13 +950,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/Java/jdk1.8.0_131/src.zip!/java/text/DateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="360" column="16" lean-forward="false" selection-start-line="360" selection-start-column="16" selection-end-line="360" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/Java/jdk1.8.0_131/src.zip!/java/text/DateFormat.java" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/SuiteRunnerWorker.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -1032,20 +958,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/selenium-java-3.5.3/client-combined-3.5.3-nodeps.jar!/org/openqa/selenium/WebElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/selenium-java-3.5.3/client-combined-3.5.3-nodeps.jar!/org/openqa/selenium/support/ui/FluentWait.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/selenium-java-3.5.3/client-combined-3.5.3-nodeps.jar!/org/openqa/selenium/WebElement.class" />
+    <entry file="jar://C:/selenium-java-3.5.3/client-combined-3.5.3-nodeps.jar!/org/openqa/selenium/support/ui/FluentWait.class" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/testng/lib/testng.jar!/org/testng/internal/MethodInvocationHelper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1067,20 +981,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="2420" column="20" lean-forward="false" selection-start-line="2420" selection-start-column="20" selection-end-line="2420" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/selenium-java-3.5.3/client-combined-3.5.3-nodeps.jar!/org/openqa/selenium/remote/RemoteWebElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/Java/jdk1.8.0_131/src.zip!/java/lang/String.java" />
+    <entry file="jar://C:/selenium-java-3.5.3/client-combined-3.5.3-nodeps.jar!/org/openqa/selenium/remote/RemoteWebElement.class" />
     <entry file="file://$PROJECT_DIR$/src/f2g/autotests/SendKeysCondition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1104,7 +1006,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GServerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="2108">
           <caret line="427" column="95" lean-forward="false" selection-start-line="423" selection-start-column="8" selection-end-line="427" selection-end-column="95" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1139,12 +1041,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GProjectRoomsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="66" column="34" lean-forward="false" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+        <state relative-caret-position="680">
+          <caret line="67" column="44" lean-forward="false" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1505486197350" expanded="false" signature="3398:3408" ph=" { " />
-            <marker date="1505486197350" expanded="false" signature="3422:3428" ph=" }" />
           </folding>
         </state>
       </provider>
