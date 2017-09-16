@@ -164,21 +164,15 @@ public class F2GServerTest {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        //driver.manage().timeouts().pageLoadTimeout(30,TimeUnit.SECONDS);
         try {
             this.driver.findElement(By.xpath("//div[@class='dialog download']/div[@class='dialog-footer']/input[@value='Close']")).click();
         } catch(Exception e) {
             System.out.println("Timeout exception always happens here due to some IE pop-up mechanism handling!");
         }
 
-        //Manipulations with this download window somehow corrupt driver so we have to re-init it.
-        driver.quit();
-        System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+"\\BrowserDrivers\\IEDriverServer32.exe");
-        DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
-        capabilities.setCapability(InternetExplorerDriver.NATIVE_EVENTS, false);
-        WebDriver wd = new InternetExplorerDriver(capabilities);
-        this.driver = wd;
-        F2GIEAuth.authenticate(this.driver);
+        //Manipulations with this download window somehow corrupt driver so we have to refresh it.
+        driver.manage().timeouts().pageLoadTimeout(15,TimeUnit.SECONDS);
+        this.driver.navigate().refresh();
     }
 
     @Test(priority=5)

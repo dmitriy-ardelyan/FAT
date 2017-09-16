@@ -154,6 +154,7 @@ public class F2GProjectRoomsTest {
 
     @Test(priority=4)
     private void editSettingsTest() {
+
         //Create new blank TestPR1.
         if(!F2GTestsLib.checkElementPresence(this.driver,"TestPR1")){
             F2GTestsLib.createTestPR1(this.driver);
@@ -245,8 +246,5 @@ public class F2GProjectRoomsTest {
     public void AfterClass(){
         driver.quit();
     }
-
-    //Additional
-
 
 }

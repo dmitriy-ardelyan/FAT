@@ -85,6 +85,18 @@ public class F2GTestsLib {
         return filesList.get(0);
     }
 
+    public static WebElement getElementByName(WebDriver driver, String name2Find){
+        List<WebElement> list = driver.findElements(By.xpath("//div[@class='list-item']"));
+        for (WebElement el:list){
+            String name = el.findElement(By.tagName("h2")).getText();
+            if (name.equals(name2Find)){
+                //Here we found file time to perform action.
+                return el;
+            }
+        }
+        return null;
+    }
+
     public static void openFolder(WebDriver driver, String folder2Open){
         List<WebElement> list = driver.findElements(By.xpath("//div[@class='list-item']"));
         for (WebElement el:list){
@@ -165,6 +177,7 @@ public class F2GTestsLib {
         }
         Assert.assertTrue(fileExists);
     }
+
     public static void checkThatElementDoesNotExist(WebDriver driver, String el2Check) {
         Boolean fileExists = false;
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
@@ -257,6 +270,33 @@ public class F2GTestsLib {
             F2GTestsLib.findElementAndSelectAction(driver,pr2Delete, "Delete");
             driver.navigate().refresh();
         }
+    }
+
+    public static void deleteAllElementsWithTitle(WebDriver driver, String name2Delete){
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        List<WebElement> list = driver.findElements(By.xpath("//div[@class='list-item']"));
+        for (WebElement el:list) {
+            String name = el.findElement(By.tagName("h2")).getText();
+            if (name.contains(name2Delete)) {
+                F2GTestsLib.findElementAndSelectAction(driver, name, "Delete");
+            }
+        }
+    }
+
+    public static void createFileForward(WebDriver driver){
+
+        //Create file froward.
+        try {
+            driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+            Thread.sleep(500);
+            driver.findElement(By.xpath("//a[@title='Upload']")).click();
+            Runtime.getRuntime().exec("C:\\AutoitScript\\fileUpload.exe");
+            Thread.sleep(7000);
+        } catch (Exception ex){
+            ex.printStackTrace();
+        }
+        driver.findElement(By.xpath("//div[@class='overlay overlay-contentscale open']/div[@class='dialog']" +
+                "/div[@class='dialog-body']/div[@class='middle-form']/div[3]/button")).click();
     }
 
 }
