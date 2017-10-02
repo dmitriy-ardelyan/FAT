@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [F2GServerSuite]">
+  <test name="F2GServerSuite(failed)">
+    <classes>
+      <class name="f2g.autotests.F2GServerTest">
+        <methods>
+          <include name="serverFilesSortTest"/>
+          <include name="serverSearchTest"/>
+          <include name="createFileForwardTest"/>
+          <include name="createSubFolderTest"/>
+          <include name="createProjectRoomTest"/>
+          <include name="deleteFolderTest"/>
+          <include name="createProjectRoomFromFileContextMenuTest"/>
+          <include name="fileDownloadButtonTest"/>
+          <include name="uploadFileTest"/>
+          <include name="deleteFileTest"/>
+          <include name="fileRenameTest"/>
+          <include name="createFolderTest"/>
+          <include name="folderNavigationTest"/>
+          <include name="folderRenameTest"/>
+          <include name="fileDownloadFromContextMenuTest"/>
+          <include name="BeforeClass"/>
+        </methods>
+      </class> <!-- f2g.autotests.F2GServerTest -->
+    </classes>
+  </test> <!-- F2GServerSuite(failed) -->
+</suite> <!-- Failed suite [F2GServerSuite] -->

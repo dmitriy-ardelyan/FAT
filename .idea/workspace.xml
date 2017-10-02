@@ -20,28 +20,22 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="F2GUsersTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="F2GUsersTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GUsersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="31" column="3" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#7200#7201#0" expanded="true" />
-                <element signature="e#7229#7230#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="442">
+              <caret line="35" column="88" lean-forward="false" selection-start-line="35" selection-start-column="88" selection-end-line="35" selection-end-column="88" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="F2GServerTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="F2GServerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GServerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="831" column="0" lean-forward="false" selection-start-line="831" selection-start-column="0" selection-end-line="831" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding>
-                <element signature="method#BeforeClass#0;class#F2GServerTest#0" expanded="false" />
-                <element signature="method#uploadFileTest#0;class#F2GServerTest#0" expanded="false" />
                 <element signature="method#createFolderTest#0;class#F2GServerTest#0" expanded="false" />
                 <element signature="method#serverFilesSortTest#0;class#F2GServerTest#0" expanded="false" />
                 <element signature="method#fileDownloadFromContextMenuTest#0;class#F2GServerTest#0" expanded="false" />
@@ -71,10 +65,60 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="F2GServerSuite.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/F2GServerSuite.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="F2GPojectRoomSuite.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/F2GPojectRoomSuite.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="F2GFileForwardsSuite.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/F2GFileForwardsSuite.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="F2GUsersSuite.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/F2GUsersSuite.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="F2GProjectRoomsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GProjectRoomsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="430">
+            <state relative-caret-position="459">
               <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
               <folding>
                 <element signature="method#BeforeClass#0;class#F2GProjectRoomsTest#0" expanded="false" />
@@ -83,8 +127,6 @@
                 <element signature="method#sendLinkToProjectRoomTest#0;class#F2GProjectRoomsTest#0" expanded="false" />
                 <element signature="method#editSettingsTest#0;class#F2GProjectRoomsTest#0" expanded="false" />
                 <element signature="method#deleteProjectRoomTest#0;class#F2GProjectRoomsTest#0" expanded="false" />
-                <element signature="e#12347#12348#0" expanded="false" />
-                <element signature="e#12376#12377#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -93,10 +135,9 @@
       <file leaf-file-name="F2GTestsLib.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GTestsLib.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
+            <state relative-caret-position="391">
               <caret line="165" column="23" lean-forward="false" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#getFirstFolder#0;class#F2GTestsLib#0" expanded="false" />
                 <element signature="method#getFirstFile#0;class#F2GTestsLib#0" expanded="false" />
                 <element signature="method#getElementByName#0;class#F2GTestsLib#0" expanded="false" />
@@ -139,6 +180,7 @@
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Administrator\IdeaProjects\F2GAutoTests\src\f2g\autotests</dir>
+      <dir>C:\Users\Administrator\IdeaProjects\F2GAutoTests</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -167,18 +209,23 @@
         <option value="$PROJECT_DIR$/src/f2g/autotests/SendKeysCondition.java" />
         <option value="$PROJECT_DIR$/src/f2g/autotests/trash/F2GAutoTests.java" />
         <option value="$PROJECT_DIR$/src/f2g/autotests/F2GFileForwardsTest.java" />
-        <option value="$PROJECT_DIR$/src/f2g/autotests/F2GServerTest.java" />
         <option value="$PROJECT_DIR$/src/f2g/autotests/F2GProjectRoomsTest.java" />
         <option value="$PROJECT_DIR$/src/f2g/autotests/F2GTestsLib.java" />
         <option value="$PROJECT_DIR$/src/f2g/autotests/F2GUsersTest.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/F2GServerSuite.xml" />
+        <option value="$PROJECT_DIR$/F2GPojectRoomSuite.xml" />
+        <option value="$PROJECT_DIR$/F2GFileForwardsSuite.xml" />
+        <option value="$PROJECT_DIR$/F2GUsersSuite.xml" />
+        <option value="$PROJECT_DIR$/src/f2g/autotests/F2GServerTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="width" value="1296" />
+    <option name="height" value="776" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -198,6 +245,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,30 +288,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="F2GAutoTests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="F2GAutoTests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BrowserDrivers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="C:/selenium-java-3.5.3/lib/xml-apis-1.4.01.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestNav" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -283,7 +316,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.F2GUsersTest">
+  <component name="RunManager" selected="TestNG.F2GServerTest.uploadFileTest">
     <configuration default="false" name="F2GServerTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -318,39 +351,6 @@
       <method />
     </configuration>
     <configuration default="false" name="F2GProjectRoomsTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="f2g.autotests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="F2GAutoTests" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="f2g.autotests" />
-      <option name="MAIN_CLASS_NAME" value="f2g.autotests.F2GProjectRoomsTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="false" name="F2GProjectRoomsTest (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="f2g.autotests.*" />
@@ -432,6 +432,39 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="F2GServerTest.uploadFileTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="f2g.autotests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="F2GAutoTests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="f2g.autotests" />
+      <option name="MAIN_CLASS_NAME" value="f2g.autotests.F2GServerTest" />
+      <option name="METHOD_NAME" value="uploadFileTest" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -653,20 +686,54 @@
       <listeners />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.F2GServerTest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.F2GProjectRoomsTest" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.F2GProjectRoomsTest (1)" />
+    <configuration default="false" name="C:\Users\Administrator\IdeaProjects\F2GAutoTests\testng.xml" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="f2g.autotests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="F2GAutoTests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" value="C:\Users\Administrator\IdeaProjects\F2GAutoTests\testng.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" value="" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="TestNG.C:\Users\Administrator\IdeaProjects\F2GAutoTests\testng.xml" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.F2GServerTest" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.F2GProjectRoomsTest" />
       <item index="3" class="java.lang.String" itemvalue="TestNG.F2GFileForwardsTest" />
       <item index="4" class="java.lang.String" itemvalue="TestNG.F2GUsersTest" />
+      <item index="5" class="java.lang.String" itemvalue="TestNG.F2GServerTest.uploadFileTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.F2GUsersTest" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.F2GServerTest" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.F2GFileForwardsTest" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.F2GProjectRoomsTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.F2GProjectRoomsTest (1)" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.F2GServerTest.uploadFileTest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.F2GUsersTest" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.F2GServerTest" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.F2GFileForwardsTest" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.F2GProjectRoomsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -684,14 +751,14 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="F2GUsersTest - 2017.09.17 at 02h 59m 22s.xml">
-      <configuration name="F2GUsersTest" configurationId="TestNG" />
+    <history-entry file="C__Users_Administrator_IdeaProjects_F2GAutoTests_testng_xml - 2017.09.26 at 06h 44m 07s.xml">
+      <configuration name="C:\Users\Administrator\IdeaProjects\F2GAutoTests\testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F2GUsersTest - 2017.09.17 at 02h 59m 54s.xml">
-      <configuration name="F2GUsersTest" configurationId="TestNG" />
+    <history-entry file="C__Users_Administrator_IdeaProjects_F2GAutoTests_testng_xml - 2017.09.26 at 06h 57m 22s.xml">
+      <configuration name="C:\Users\Administrator\IdeaProjects\F2GAutoTests\testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="F2GUsersTest - 2017.09.17 at 03h 00m 32s.xml">
-      <configuration name="F2GUsersTest" configurationId="TestNG" />
+    <history-entry file="F2GServerTest_uploadFileTest - 2017.09.26 at 09h 08m 53s.xml">
+      <configuration name="F2GServerTest.uploadFileTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="F2GUsersTest - 2017.09.17 at 03h 01m 03s.xml">
       <configuration name="F2GUsersTest" configurationId="TestNG" />
@@ -716,35 +783,34 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2816594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41484717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20059524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3231441" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3231441" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -768,97 +834,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/f2g/autotests/trash/F2GAutoTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="53" column="167" lean-forward="false" selection-start-line="52" selection-start-column="12" selection-end-line="53" selection-end-column="167" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GServerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
-          <caret line="69" column="45" lean-forward="false" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
-          <folding>
-            <element signature="method#BeforeClass#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#uploadFileTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#createFolderTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#serverFilesSortTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#fileDownloadFromContextMenuTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#folderRenameTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#fileRenameTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#createSubFolderTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#deleteFolderTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#deleteFileTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#fileDownloadButtonTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#createProjectRoomTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#createProjectRoomFromFileContextMenuTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#createFileForwardTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#folderNavigationTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#serverSearchTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#getFirstFolder#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#getFirstFile#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#openFolder#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#createFolderWithName#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#findElementAndSelectAction#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#deleteExistingElement#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#checkIfElementExists#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#checkElementPresence#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#checkDateDescendingSort#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#clickActionInList#0;class#F2GServerTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f2g/autotests/trash/LessonsCheckTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="63" column="3" lean-forward="false" selection-start-line="63" selection-start-column="3" selection-end-line="78" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GIEAuth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GServerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="method#BeforeClass#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#uploadFileTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#createFolderTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#serverFilesSortTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#fileDownloadFromContextMenuTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#folderRenameTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#fileRenameTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#createSubFolderTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#deleteFolderTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#deleteFileTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#fileDownloadButtonTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#createProjectRoomTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#createProjectRoomFromFileContextMenuTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#createFileForwardTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#folderNavigationTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#serverSearchTest#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#getFirstFolder#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#getFirstFile#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#openFolder#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#createFolderWithName#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#findElementAndSelectAction#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#deleteExistingElement#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#checkIfElementExists#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#checkElementPresence#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#checkDateDescendingSort#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#clickActionInList#0;class#F2GServerTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/f2g/autotests/trash/LessonsCheckTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1136,13 +1111,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GFileForwardsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="120" column="8" lean-forward="true" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GTestsLib.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="165" column="23" lean-forward="false" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
+          <folding>
+            <element signature="method#getFirstFolder#0;class#F2GTestsLib#0" expanded="false" />
+            <element signature="method#getFirstFile#0;class#F2GTestsLib#0" expanded="false" />
+            <element signature="method#getElementByName#0;class#F2GTestsLib#0" expanded="false" />
+            <element signature="method#openFolder#0;class#F2GTestsLib#0" expanded="false" />
+            <element signature="method#openF2GElement#0;class#F2GTestsLib#0" expanded="false" />
+            <element signature="method#createFolderWithName#0;class#F2GTestsLib#0" expanded="false" />
+            <element signature="method#findElementAndSelectAction#0;class#F2GTestsLib#0" expanded="false" />
+            <element signature="method#deleteExistingElement#0;class#F2GTestsLib#0" expanded="false" />
+            <element signature="method#checkThatElementDoesNotExist#0;class#F2GTestsLib#0" expanded="false" />
+            <element signature="method#checkElementPresence#0;class#F2GTestsLib#0" expanded="false" />
+            <element signature="method#checkDateDescendingSort#0;class#F2GTestsLib#0" expanded="false" />
+            <element signature="method#clickActionInList#0;class#F2GTestsLib#0" expanded="false" />
+            <element signature="method#createTestPR1#0;class#F2GTestsLib#0" expanded="false" />
+            <element signature="method#deleteProjectRoom#0;class#F2GTestsLib#0" expanded="false" />
+            <element signature="method#deleteAllElementsWithTitle#0;class#F2GTestsLib#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GProjectRoomsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
+          <folding>
+            <element signature="method#BeforeClass#0;class#F2GProjectRoomsTest#0" expanded="false" />
+            <element signature="method#createProjectRoomOnTabTest#0;class#F2GProjectRoomsTest#0" expanded="false" />
+            <element signature="method#uploadFileToProjectRoomTest#0;class#F2GProjectRoomsTest#0" expanded="false" />
+            <element signature="method#sendLinkToProjectRoomTest#0;class#F2GProjectRoomsTest#0" expanded="false" />
+            <element signature="method#editSettingsTest#0;class#F2GProjectRoomsTest#0" expanded="false" />
+            <element signature="method#deleteProjectRoomTest#0;class#F2GProjectRoomsTest#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GUsersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" column="88" lean-forward="false" selection-start-line="35" selection-start-column="88" selection-end-line="35" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/F2GPojectRoomSuite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/F2GFileForwardsSuite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/F2GUsersSuite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/F2GServerSuite.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GServerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="831" column="0" lean-forward="false" selection-start-line="831" selection-start-column="0" selection-end-line="831" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
-            <element signature="method#BeforeClass#0;class#F2GServerTest#0" expanded="false" />
-            <element signature="method#uploadFileTest#0;class#F2GServerTest#0" expanded="false" />
             <element signature="method#createFolderTest#0;class#F2GServerTest#0" expanded="false" />
             <element signature="method#serverFilesSortTest#0;class#F2GServerTest#0" expanded="false" />
             <element signature="method#fileDownloadFromContextMenuTest#0;class#F2GServerTest#0" expanded="false" />
@@ -1167,77 +1234,6 @@
             <element signature="method#checkElementPresence#0;class#F2GServerTest#0" expanded="false" />
             <element signature="method#checkDateDescendingSort#0;class#F2GServerTest#0" expanded="false" />
             <element signature="method#clickActionInList#0;class#F2GServerTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GFileForwardsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="120" column="8" lean-forward="true" selection-start-line="120" selection-start-column="8" selection-end-line="120" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#BeforeClass#0;class#F2GFileForwardsTest#0" expanded="false" />
-            <element signature="method#createFileForwardTest#0;class#F2GFileForwardsTest#0" expanded="false" />
-            <element signature="method#deleteFileForwardTest#0;class#F2GFileForwardsTest#0" expanded="false" />
-            <element signature="method#fileForwardStatisticsTest#0;class#F2GFileForwardsTest#0" expanded="false" />
-            <element signature="method#previewFileForwardTest#0;class#F2GFileForwardsTest#0" expanded="false" />
-            <element signature="method#editFileForwardSettingsTest#0;class#F2GFileForwardsTest#0" expanded="false" />
-            <element signature="method#renameFileForwardTest#0;class#F2GFileForwardsTest#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GTestsLib.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="165" column="23" lean-forward="false" selection-start-line="165" selection-start-column="23" selection-end-line="165" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getFirstFolder#0;class#F2GTestsLib#0" expanded="false" />
-            <element signature="method#getFirstFile#0;class#F2GTestsLib#0" expanded="false" />
-            <element signature="method#getElementByName#0;class#F2GTestsLib#0" expanded="false" />
-            <element signature="method#openFolder#0;class#F2GTestsLib#0" expanded="false" />
-            <element signature="method#openF2GElement#0;class#F2GTestsLib#0" expanded="false" />
-            <element signature="method#createFolderWithName#0;class#F2GTestsLib#0" expanded="false" />
-            <element signature="method#findElementAndSelectAction#0;class#F2GTestsLib#0" expanded="false" />
-            <element signature="method#deleteExistingElement#0;class#F2GTestsLib#0" expanded="false" />
-            <element signature="method#checkThatElementDoesNotExist#0;class#F2GTestsLib#0" expanded="false" />
-            <element signature="method#checkElementPresence#0;class#F2GTestsLib#0" expanded="false" />
-            <element signature="method#checkDateDescendingSort#0;class#F2GTestsLib#0" expanded="false" />
-            <element signature="method#clickActionInList#0;class#F2GTestsLib#0" expanded="false" />
-            <element signature="method#createTestPR1#0;class#F2GTestsLib#0" expanded="false" />
-            <element signature="method#deleteProjectRoom#0;class#F2GTestsLib#0" expanded="false" />
-            <element signature="method#deleteAllElementsWithTitle#0;class#F2GTestsLib#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GProjectRoomsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
-          <folding>
-            <element signature="method#BeforeClass#0;class#F2GProjectRoomsTest#0" expanded="false" />
-            <element signature="method#createProjectRoomOnTabTest#0;class#F2GProjectRoomsTest#0" expanded="false" />
-            <element signature="method#uploadFileToProjectRoomTest#0;class#F2GProjectRoomsTest#0" expanded="false" />
-            <element signature="method#sendLinkToProjectRoomTest#0;class#F2GProjectRoomsTest#0" expanded="false" />
-            <element signature="method#editSettingsTest#0;class#F2GProjectRoomsTest#0" expanded="false" />
-            <element signature="method#deleteProjectRoomTest#0;class#F2GProjectRoomsTest#0" expanded="false" />
-            <element signature="e#12347#12348#0" expanded="false" />
-            <element signature="e#12376#12377#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/f2g/autotests/F2GUsersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="31" column="3" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7200#7201#0" expanded="true" />
-            <element signature="e#7229#7230#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,3 @@
+cd C:\Users\Administrator\IdeaProjects\F2GAutoTests
+set classpath=C:\Users\Administrator\IdeaProjects\F2GAutoTests\lib\*;C:\Users\Administrator\IdeaProjects\F2GAutoTests\out\production\F2GAutoTests
+java org.testng.TestNG testng.xml

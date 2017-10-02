@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="F2GProjectRoomSuite">
+    <test verbose="2" name="F2GProjectRoomSuite">
+        <classes>
+            <class name="f2g.autotests.F2GProjectRoomsTest"/>
+        </classes>
+    </test> <!-- Default test -->
+</suite> <!-- Default suite -->

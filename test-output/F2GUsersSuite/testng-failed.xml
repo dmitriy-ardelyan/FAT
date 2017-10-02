@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [F2GUsersSuite]">
+  <test name="F2GUsersSuite(failed)">
+    <classes>
+      <class name="f2g.autotests.F2GUsersTest">
+        <methods>
+          <include name="editUserTest"/>
+          <include name="deleteUserTest"/>
+          <include name="createUserTest"/>
+          <include name="BeforeClass"/>
+        </methods>
+      </class> <!-- f2g.autotests.F2GUsersTest -->
+    </classes>
+  </test> <!-- F2GUsersSuite(failed) -->
+</suite> <!-- Failed suite [F2GUsersSuite] -->

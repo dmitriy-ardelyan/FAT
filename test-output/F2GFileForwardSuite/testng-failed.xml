@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [F2GFileForwardSuite]">
+  <test name="F2GFileForwardSuite(failed)">
+    <classes>
+      <class name="f2g.autotests.F2GFileForwardsTest">
+        <methods>
+          <include name="fileForwardStatisticsTest"/>
+          <include name="editFileForwardSettingsTest"/>
+          <include name="BeforeClass"/>
+          <include name="createFileForwardTest"/>
+          <include name="downloadFileForwardTest"/>
+          <include name="previewFileForwardTest"/>
+          <include name="renameFileForwardTest"/>
+          <include name="deleteFileForwardTest"/>
+        </methods>
+      </class> <!-- f2g.autotests.F2GFileForwardsTest -->
+    </classes>
+  </test> <!-- F2GFileForwardSuite(failed) -->
+</suite> <!-- Failed suite [F2GFileForwardSuite] -->
