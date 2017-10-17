@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Files2Go WebClient" duration-ms="0" started-at="2017-10-17T10:40:29Z" finished-at="2017-10-17T10:40:29Z">
+  <suite name="Files2Go WebClient" duration-ms="0" started-at="2017-10-17T13:13:24Z" finished-at="2017-10-17T13:13:24Z">
     <groups>
     </groups>
   </suite> <!-- Files2Go WebClient -->
-  <suite name="F2GUsersSuite" duration-ms="55116" started-at="2017-10-17T10:39:34Z" finished-at="2017-10-17T10:40:29Z">
+  <suite name="F2GUsersSuite" duration-ms="43556" started-at="2017-10-17T13:12:40Z" finished-at="2017-10-17T13:13:24Z">
     <groups>
     </groups>
-    <test name="F2GUsersSuite" duration-ms="55116" started-at="2017-10-17T10:39:34Z" finished-at="2017-10-17T10:40:29Z">
+    <test name="F2GUsersSuite" duration-ms="43556" started-at="2017-10-17T13:12:40Z" finished-at="2017-10-17T13:13:24Z">
       <class name="f2g.autotests.F2GUsersTest">
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:f2g.autotests.F2GUsersTest@5ccd43c2]" name="BeforeClass" is-config="true" duration-ms="23405" started-at="2017-10-17T03:39:34Z" finished-at="2017-10-17T03:39:58Z">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:f2g.autotests.F2GUsersTest@5ccd43c2]" name="BeforeClass" is-config="true" duration-ms="12832" started-at="2017-10-17T06:12:40Z" finished-at="2017-10-17T06:12:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method status="PASS" signature="createUserTest()[pri:0, instance:f2g.autotests.F2GUsersTest@5ccd43c2]" name="createUserTest" duration-ms="8952" started-at="2017-10-17T03:39:58Z" finished-at="2017-10-17T03:40:07Z">
+        <test-method status="PASS" signature="createUserTest()[pri:0, instance:f2g.autotests.F2GUsersTest@5ccd43c2]" name="createUserTest" duration-ms="6072" started-at="2017-10-17T06:12:53Z" finished-at="2017-10-17T06:12:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserTest -->
-        <test-method status="PASS" signature="editUserTest()[pri:0, instance:f2g.autotests.F2GUsersTest@5ccd43c2]" name="editUserTest" duration-ms="12064" started-at="2017-10-17T03:40:07Z" finished-at="2017-10-17T03:40:19Z">
+        <test-method status="PASS" signature="editUserTest()[pri:0, instance:f2g.autotests.F2GUsersTest@5ccd43c2]" name="editUserTest" duration-ms="12146" started-at="2017-10-17T06:12:59Z" finished-at="2017-10-17T06:13:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editUserTest -->
-        <test-method status="PASS" signature="deleteUserTest()[pri:0, instance:f2g.autotests.F2GUsersTest@5ccd43c2]" name="deleteUserTest" duration-ms="9952" started-at="2017-10-17T03:40:19Z" finished-at="2017-10-17T03:40:29Z">
+        <test-method status="PASS" signature="deleteUserTest()[pri:0, instance:f2g.autotests.F2GUsersTest@5ccd43c2]" name="deleteUserTest" duration-ms="11703" started-at="2017-10-17T06:13:11Z" finished-at="2017-10-17T06:13:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUserTest -->
-        <test-method status="PASS" signature="AfterClass()[pri:0, instance:f2g.autotests.F2GUsersTest@5ccd43c2]" name="AfterClass" is-config="true" duration-ms="720" started-at="2017-10-17T03:40:29Z" finished-at="2017-10-17T03:40:29Z">
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:f2g.autotests.F2GUsersTest@5ccd43c2]" name="AfterClass" is-config="true" duration-ms="797" started-at="2017-10-17T06:13:23Z" finished-at="2017-10-17T06:13:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->
