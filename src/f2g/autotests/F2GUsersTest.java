@@ -96,6 +96,7 @@ public class F2GUsersTest {
 
    @Test(priority=3)
    private void deleteUserTest() {
+       System.out.println("opa");
 
        //Create a user if it does not exist.
        if (!F2GTestsLib.checkElementPresence(this.driver, "testuser29 (test user29)")) {
