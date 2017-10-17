@@ -1,128 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="3" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Files2Go WebClient" duration-ms="0" started-at="2017-10-17T13:55:04Z" finished-at="2017-10-17T13:55:04Z">
+  <suite name="Files2Go WebClient" duration-ms="0" started-at="2017-10-17T15:51:49Z" finished-at="2017-10-17T15:51:49Z">
     <groups>
     </groups>
   </suite> <!-- Files2Go WebClient -->
-  <suite name="F2GUsersSuite" duration-ms="63097" started-at="2017-10-17T13:54:01Z" finished-at="2017-10-17T13:55:04Z">
+  <suite name="F2GUsersSuite" duration-ms="56604" started-at="2017-10-17T15:50:52Z" finished-at="2017-10-17T15:51:49Z">
     <groups>
     </groups>
-    <test name="F2GUsersSuite" duration-ms="63097" started-at="2017-10-17T13:54:01Z" finished-at="2017-10-17T13:55:04Z">
+    <test name="F2GUsersSuite" duration-ms="56604" started-at="2017-10-17T15:50:52Z" finished-at="2017-10-17T15:51:49Z">
       <class name="f2g.autotests.F2GUsersTest">
-        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:f2g.autotests.F2GUsersTest@5ccd43c2]" name="BeforeClass" is-config="true" duration-ms="23454" started-at="2017-10-17T06:54:01Z" finished-at="2017-10-17T06:54:25Z">
+        <test-method status="PASS" signature="BeforeClass()[pri:0, instance:f2g.autotests.F2GUsersTest@5c8da962]" name="BeforeClass" is-config="true" duration-ms="12099" started-at="2017-10-17T08:50:52Z" finished-at="2017-10-17T08:51:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeClass -->
-        <test-method status="FAIL" signature="createUserTest()[pri:0, instance:f2g.autotests.F2GUsersTest@5ccd43c2]" name="createUserTest" duration-ms="4906" started-at="2017-10-17T06:54:25Z" finished-at="2017-10-17T06:54:29Z">
-          <exception class="java.lang.AssertionError">
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:86)
-	at org.junit.Assert.assertTrue(Assert.java:41)
-	at org.junit.Assert.assertTrue(Assert.java:52)
-	at f2g.autotests.F2GTestsLib.checkIfElementExists(Unknown Source)
-	at f2g.autotests.F2GUsersTest.createUserTest(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.TestNG.privateMain(TestNG.java:1364)
-	at org.testng.TestNG.main(TestNG.java:1333)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="createUserTest()[pri:0, instance:f2g.autotests.F2GUsersTest@5c8da962]" name="createUserTest" duration-ms="6094" started-at="2017-10-17T08:51:04Z" finished-at="2017-10-17T08:51:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUserTest -->
-        <test-method status="FAIL" signature="editUserTest()[pri:0, instance:f2g.autotests.F2GUsersTest@5ccd43c2]" name="editUserTest" duration-ms="22742" started-at="2017-10-17T06:54:29Z" finished-at="2017-10-17T06:54:52Z">
-          <exception class="org.openqa.selenium.ElementNotVisibleException">
-            <message>
-              <![CDATA[Element is not displayed (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'WIN-LU7H8QDGGU2', ip: '10.0.2.15', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{se:ieOptions={browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:29265/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, javascriptEnabled=true, platformName=WINDOWS, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
-Session ID: b72b2c1f-8d9d-4513-9386-f5de149886a6]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotVisibleException: Element is not displayed (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'WIN-LU7H8QDGGU2', ip: '10.0.2.15', os.name: 'Windows Server 2012 R2', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{se:ieOptions={browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:29265/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, javascriptEnabled=true, platformName=WINDOWS, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
-Session ID: b72b2c1f-8d9d-4513-9386-f5de149886a6
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:99)
-	at f2g.autotests.F2GUsersTest.editUserTest(Unknown Source)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.TestNG.privateMain(TestNG.java:1364)
-	at org.testng.TestNG.main(TestNG.java:1333)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+        <test-method status="PASS" signature="editUserTest()[pri:0, instance:f2g.autotests.F2GUsersTest@5c8da962]" name="editUserTest" duration-ms="13552" started-at="2017-10-17T08:51:10Z" finished-at="2017-10-17T08:51:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editUserTest -->
-        <test-method status="PASS" signature="deleteUserTest()[pri:0, instance:f2g.autotests.F2GUsersTest@5ccd43c2]" name="deleteUserTest" duration-ms="11289" started-at="2017-10-17T06:54:52Z" finished-at="2017-10-17T06:55:04Z">
+        <test-method status="PASS" signature="deleteUserTest()[pri:0, instance:f2g.autotests.F2GUsersTest@5c8da962]" name="deleteUserTest" duration-ms="11687" started-at="2017-10-17T08:51:24Z" finished-at="2017-10-17T08:51:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUserTest -->
-        <test-method status="PASS" signature="AfterClass()[pri:0, instance:f2g.autotests.F2GUsersTest@5ccd43c2]" name="AfterClass" is-config="true" duration-ms="704" started-at="2017-10-17T06:55:04Z" finished-at="2017-10-17T06:55:04Z">
+        <test-method status="PASS" signature="checkDBForUsersAdded()[pri:0, instance:f2g.autotests.F2GUsersTest@5c8da962]" name="checkDBForUsersAdded" duration-ms="12416" started-at="2017-10-17T08:51:36Z" finished-at="2017-10-17T08:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDBForUsersAdded -->
+        <test-method status="PASS" signature="AfterClass()[pri:0, instance:f2g.autotests.F2GUsersTest@5c8da962]" name="AfterClass" is-config="true" duration-ms="751" started-at="2017-10-17T08:51:48Z" finished-at="2017-10-17T08:51:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterClass -->

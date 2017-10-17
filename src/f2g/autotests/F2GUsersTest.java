@@ -1,5 +1,6 @@
 package f2g.autotests;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -116,6 +117,36 @@ public class F2GUsersTest {
 
        //Ensure that user does not exist anymore.
        F2GTestsLib.checkThatElementDoesNotExist(this.driver,"testuser29 (test user29)");
+   }
+
+   @Test(priority=4)
+   private void checkDBForUsersAdded(){
+
+       //Delete user if it is already exist.
+       if (F2GTestsLib.checkElementPresence(this.driver, "Bob (Bob Bob)")) {
+           F2GTestsLib.findElementAndSelectAction(this.driver, "Bob (Bob Bob)", "Delete");
+           this.driver.navigate().refresh();
+       }
+
+       //Create a user if it does not exist.
+       if (!F2GTestsLib.checkElementPresence(this.driver, "Bob (Bob Bob)")) {
+           //Create user.
+           driver.findElement(By.xpath("//a[@title='Add external user']")).click();
+           driver.findElement(By.xpath("//input[@data-bind='value: Login, autocomplete: $parent.ExternalUsersNames'][@class='tt-input']")).sendKeys("Bob");
+           driver.findElement(By.xpath("//input[@data-bind='value: FirstName']")).sendKeys("Bob");
+           driver.findElement(By.xpath("//input[@data-bind='value: LastName']")).sendKeys("Bob");
+           driver.findElement(By.xpath("//input[@data-bind='value: Email']")).sendKeys("Bob@gmail.com");
+           driver.findElement(By.xpath("//input[@data-bind='value: Password']")).sendKeys("123456");
+           driver.findElement(By.xpath("//div[@class='overlay overlay-contentscale open']/div[@class='dialog']" +
+                   "/div[@class='dialog-footer']/button[text()='Save'][@data-bind='click: save']")).click();
+       }
+
+       //Check DB
+       Boolean isBobPresentInDB = false;
+       for (String externalUserName: F2GDBLib.getAllExternalUsers()){
+           if (externalUserName.equals("Bob")) isBobPresentInDB = true;
+       }
+       Assert.assertTrue(isBobPresentInDB);
    }
 
 
