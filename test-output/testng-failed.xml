@@ -6,7 +6,6 @@
       <class name="f2g.autotests.F2GUsersTest">
         <methods>
           <include name="editUserTest"/>
-          <include name="deleteUserTest"/>
           <include name="createUserTest"/>
           <include name="BeforeClass"/>
           <include name="AfterClass"/>
