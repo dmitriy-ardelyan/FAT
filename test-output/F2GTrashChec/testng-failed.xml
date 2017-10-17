@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [F2GTrashChec]">
+  <listeners>
+    <listener class-name="f2g.autotests.trash.TestFailHandler"/>
+  </listeners>
+  <test name="F2GTrashChec(failed)">
+    <classes>
+      <class name="f2g.autotests.trash.RepsTest">
+        <methods>
+          <include name="t2"/>
+        </methods>
+      </class> <!-- f2g.autotests.trash.RepsTest -->
+    </classes>
+  </test> <!-- F2GTrashChec(failed) -->
+</suite> <!-- Failed suite [F2GTrashChec] -->

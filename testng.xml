@@ -2,9 +2,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Files2Go WebClient">
     <suite-files>
-        <suite-file path="./F2GServerSuite.xml" />
-        <suite-file path="./F2GPojectRoomSuite.xml" />
-        <suite-file path="./F2GFileForwardsSuite.xml" />
         <suite-file path="./F2GUsersSuite.xml" />
     </suite-files>
 </suite> <!-- Default suite -->

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>F2GServerSuite</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/15</td>
+<td>Tests passed/Failed/Skipped:</td><td>14/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Sep 26 08:49:50 PDT 2017</td>
+<td>Started on:</td><td>Mon Oct 16 01:33:54 PDT 2017</td>
 </tr>
-<tr><td>Total time:</td><td>4 seconds (4091 ms)</td>
+<tr><td>Total time:</td><td>189 seconds (189359 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,25 +68,27 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='f2g.autotests.F2GServerTest.BeforeClass()'><b>BeforeClass</b><br>Test class: f2g.autotests.F2GServerTest</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: Failed to navigate to http://localhost/webclient. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+<td title='f2g.autotests.F2GServerTest.createProjectRoomTest()'><b>createProjectRoomTest</b><br>Test class: f2g.autotests.F2GServerTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[contains(@title,&apos;exist project room&apos;)] (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;WIN-LU7H8QDGGU2&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_144&apos;
+System info: host: &apos;WIN-LU7H8QDGGU2&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{se:ieOptions={browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:29742/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, javascriptEnabled=true, platformName=WINDOWS, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
-Session ID: 0dd8bae1-f0c6-4446-a0bf-2b5bda1fc009
+Capabilities [{se:ieOptions={browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:6454/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, javascriptEnabled=true, platformName=WINDOWS, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: 11f716ea-8d0a-4811-8203-3254198fe1ac
+*** Element info: {Using=xpath, value=//a[contains(@title,&apos;exist project room&apos;)]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -95,19 +97,21 @@ Session ID: 0dd8bae1-f0c6-4446-a0bf-2b5bda1fc009
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:370)
-	at f2g.autotests.F2GIEAuth.authenticate(F2GIEAuth.java:11)
-	at f2g.autotests.F2GServerTest.BeforeClass(F2GServerTest.java:34)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at f2g.autotests.F2GServerTest.createProjectRoomTest(Unknown Source)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
 	at org.testng.TestRunner.privateRun(TestRunner.java:767)
 	at org.testng.TestRunner.run(TestRunner.java:617)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
@@ -122,18 +126,20 @@ Session ID: 0dd8bae1-f0c6-4446-a0bf-2b5bda1fc009
 	at org.testng.TestNG.run(TestNG.java:1057)
 	at org.testng.TestNG.privateMain(TestNG.java:1364)
 	at org.testng.TestNG.main(TestNG.java:1333)
-</pre></div><a href='#' onClick='toggleBox("stack-trace360207322", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace360207322'><pre>org.openqa.selenium.WebDriverException: Failed to navigate to http://localhost/webclient. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. (WARNING: The server did not provide any stacktrace information)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2100440237", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2100440237'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //a[contains(@title,&apos;exist project room&apos;)] (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;unknown&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;WIN-LU7H8QDGGU2&apos;, ip: &apos;192.168.0.102&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_144&apos;
+System info: host: &apos;WIN-LU7H8QDGGU2&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_144&apos;
 Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities [{se:ieOptions={browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:29742/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, javascriptEnabled=true, platformName=WINDOWS, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
-Session ID: 0dd8bae1-f0c6-4446-a0bf-2b5bda1fc009
+Capabilities [{se:ieOptions={browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, ie.useLegacyFileUploadDialogHandling=false, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, initialBrowserUrl=http://localhost:6454/, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true}, browserName=internet explorer, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss, javascriptEnabled=true, platformName=WINDOWS, version=11, platform=WINDOWS, unexpectedAlertBehaviour=dismiss}]
+Session ID: 11f716ea-8d0a-4811-8203-3254198fe1ac
+*** Element info: {Using=xpath, value=//a[contains(@title,&apos;exist project room&apos;)]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -142,19 +148,21 @@ Session ID: 0dd8bae1-f0c6-4446-a0bf-2b5bda1fc009
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:370)
-	at f2g.autotests.F2GIEAuth.authenticate(F2GIEAuth.java:11)
-	at f2g.autotests.F2GServerTest.BeforeClass(F2GServerTest.java:34)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at f2g.autotests.F2GServerTest.createProjectRoomTest(Unknown Source)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:175)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:107)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
 	at org.testng.TestRunner.privateRun(TestRunner.java:767)
 	at org.testng.TestRunner.run(TestRunner.java:617)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
@@ -170,24 +178,11 @@ Session ID: 0dd8bae1-f0c6-4446-a0bf-2b5bda1fc009
 	at org.testng.TestNG.privateMain(TestNG.java:1364)
 	at org.testng.TestNG.main(TestNG.java:1333)
 </pre></div></td>
-<td>0</td>
-<td>f2g.autotests.F2GServerTest@6a6824be</td></tr>
+<td>19</td>
+<td>f2g.autotests.F2GServerTest@77556fd</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='f2g.autotests.F2GServerTest.AfterClass()'><b>AfterClass</b><br>Test class: f2g.autotests.F2GServerTest</td>
-<td></td>
-<td>0</td>
-<td>f2g.autotests.F2GServerTest@6a6824be</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -196,78 +191,73 @@ Session ID: 0dd8bae1-f0c6-4446-a0bf-2b5bda1fc009
 <tr>
 <td title='f2g.autotests.F2GServerTest.createFileForwardTest()'><b>createFileForwardTest</b><br>Test class: f2g.autotests.F2GServerTest</td>
 <td></td>
-<td>0</td>
-<td>f2g.autotests.F2GServerTest@6a6824be</td></tr>
+<td>14</td>
+<td>f2g.autotests.F2GServerTest@77556fd</td></tr>
 <tr>
 <td title='f2g.autotests.F2GServerTest.createFolderTest()'><b>createFolderTest</b><br>Test class: f2g.autotests.F2GServerTest</td>
 <td></td>
-<td>0</td>
-<td>f2g.autotests.F2GServerTest@6a6824be</td></tr>
+<td>9</td>
+<td>f2g.autotests.F2GServerTest@77556fd</td></tr>
 <tr>
 <td title='f2g.autotests.F2GServerTest.createProjectRoomFromFileContextMenuTest()'><b>createProjectRoomFromFileContextMenuTest</b><br>Test class: f2g.autotests.F2GServerTest</td>
 <td></td>
-<td>0</td>
-<td>f2g.autotests.F2GServerTest@6a6824be</td></tr>
-<tr>
-<td title='f2g.autotests.F2GServerTest.createProjectRoomTest()'><b>createProjectRoomTest</b><br>Test class: f2g.autotests.F2GServerTest</td>
-<td></td>
-<td>0</td>
-<td>f2g.autotests.F2GServerTest@6a6824be</td></tr>
+<td>9</td>
+<td>f2g.autotests.F2GServerTest@77556fd</td></tr>
 <tr>
 <td title='f2g.autotests.F2GServerTest.createSubFolderTest()'><b>createSubFolderTest</b><br>Test class: f2g.autotests.F2GServerTest</td>
 <td></td>
-<td>0</td>
-<td>f2g.autotests.F2GServerTest@6a6824be</td></tr>
+<td>13</td>
+<td>f2g.autotests.F2GServerTest@77556fd</td></tr>
 <tr>
 <td title='f2g.autotests.F2GServerTest.deleteFileTest()'><b>deleteFileTest</b><br>Test class: f2g.autotests.F2GServerTest</td>
 <td></td>
-<td>0</td>
-<td>f2g.autotests.F2GServerTest@6a6824be</td></tr>
+<td>13</td>
+<td>f2g.autotests.F2GServerTest@77556fd</td></tr>
 <tr>
 <td title='f2g.autotests.F2GServerTest.deleteFolderTest()'><b>deleteFolderTest</b><br>Test class: f2g.autotests.F2GServerTest</td>
 <td></td>
-<td>0</td>
-<td>f2g.autotests.F2GServerTest@6a6824be</td></tr>
+<td>9</td>
+<td>f2g.autotests.F2GServerTest@77556fd</td></tr>
 <tr>
 <td title='f2g.autotests.F2GServerTest.fileDownloadButtonTest()'><b>fileDownloadButtonTest</b><br>Test class: f2g.autotests.F2GServerTest</td>
 <td></td>
-<td>0</td>
-<td>f2g.autotests.F2GServerTest@6a6824be</td></tr>
+<td>12</td>
+<td>f2g.autotests.F2GServerTest@77556fd</td></tr>
 <tr>
 <td title='f2g.autotests.F2GServerTest.fileDownloadFromContextMenuTest()'><b>fileDownloadFromContextMenuTest</b><br>Test class: f2g.autotests.F2GServerTest</td>
 <td></td>
-<td>0</td>
-<td>f2g.autotests.F2GServerTest@6a6824be</td></tr>
+<td>24</td>
+<td>f2g.autotests.F2GServerTest@77556fd</td></tr>
 <tr>
 <td title='f2g.autotests.F2GServerTest.fileRenameTest()'><b>fileRenameTest</b><br>Test class: f2g.autotests.F2GServerTest</td>
 <td></td>
-<td>0</td>
-<td>f2g.autotests.F2GServerTest@6a6824be</td></tr>
+<td>10</td>
+<td>f2g.autotests.F2GServerTest@77556fd</td></tr>
 <tr>
 <td title='f2g.autotests.F2GServerTest.folderNavigationTest()'><b>folderNavigationTest</b><br>Test class: f2g.autotests.F2GServerTest</td>
 <td></td>
-<td>0</td>
-<td>f2g.autotests.F2GServerTest@6a6824be</td></tr>
+<td>3</td>
+<td>f2g.autotests.F2GServerTest@77556fd</td></tr>
 <tr>
 <td title='f2g.autotests.F2GServerTest.folderRenameTest()'><b>folderRenameTest</b><br>Test class: f2g.autotests.F2GServerTest</td>
 <td></td>
-<td>0</td>
-<td>f2g.autotests.F2GServerTest@6a6824be</td></tr>
+<td>16</td>
+<td>f2g.autotests.F2GServerTest@77556fd</td></tr>
 <tr>
 <td title='f2g.autotests.F2GServerTest.serverFilesSortTest()'><b>serverFilesSortTest</b><br>Test class: f2g.autotests.F2GServerTest</td>
 <td></td>
-<td>0</td>
-<td>f2g.autotests.F2GServerTest@6a6824be</td></tr>
+<td>4</td>
+<td>f2g.autotests.F2GServerTest@77556fd</td></tr>
 <tr>
 <td title='f2g.autotests.F2GServerTest.serverSearchTest()'><b>serverSearchTest</b><br>Test class: f2g.autotests.F2GServerTest</td>
 <td></td>
-<td>0</td>
-<td>f2g.autotests.F2GServerTest@6a6824be</td></tr>
+<td>1</td>
+<td>f2g.autotests.F2GServerTest@77556fd</td></tr>
 <tr>
 <td title='f2g.autotests.F2GServerTest.uploadFileTest()'><b>uploadFileTest</b><br>Test class: f2g.autotests.F2GServerTest</td>
 <td></td>
-<td>0</td>
-<td>f2g.autotests.F2GServerTest@6a6824be</td></tr>
+<td>15</td>
+<td>f2g.autotests.F2GServerTest@77556fd</td></tr>
 </table><p>
 </body>
 </html>

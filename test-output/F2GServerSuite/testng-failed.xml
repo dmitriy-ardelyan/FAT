@@ -5,21 +5,8 @@
     <classes>
       <class name="f2g.autotests.F2GServerTest">
         <methods>
-          <include name="serverFilesSortTest"/>
-          <include name="serverSearchTest"/>
-          <include name="createFileForwardTest"/>
-          <include name="createSubFolderTest"/>
+          <include name="AfterClass"/>
           <include name="createProjectRoomTest"/>
-          <include name="deleteFolderTest"/>
-          <include name="createProjectRoomFromFileContextMenuTest"/>
-          <include name="fileDownloadButtonTest"/>
-          <include name="uploadFileTest"/>
-          <include name="deleteFileTest"/>
-          <include name="fileRenameTest"/>
-          <include name="createFolderTest"/>
-          <include name="folderNavigationTest"/>
-          <include name="folderRenameTest"/>
-          <include name="fileDownloadFromContextMenuTest"/>
           <include name="BeforeClass"/>
         </methods>
       </class> <!-- f2g.autotests.F2GServerTest -->

@@ -5,14 +5,11 @@
     <classes>
       <class name="f2g.autotests.F2GFileForwardsTest">
         <methods>
-          <include name="fileForwardStatisticsTest"/>
+          <include name="AfterClass"/>
           <include name="editFileForwardSettingsTest"/>
           <include name="BeforeClass"/>
-          <include name="createFileForwardTest"/>
-          <include name="downloadFileForwardTest"/>
           <include name="previewFileForwardTest"/>
           <include name="renameFileForwardTest"/>
-          <include name="deleteFileForwardTest"/>
         </methods>
       </class> <!-- f2g.autotests.F2GFileForwardsTest -->
     </classes>

@@ -1,6 +1,8 @@
 package f2g.autotests;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
@@ -13,6 +15,7 @@ public class F2GIEAuth {
         driver.manage().window().maximize();
         driver.findElement(By.partialLinkText("Continue to this")).click();
         try {
+            Runtime.getRuntime().exec("C:\\AutoitScript\\switchToIE.exe");
             //Thread.sleep(2000);
             Runtime.getRuntime().exec("C:\\AutoitScript\\ieauth2.exe");
             Thread.sleep(5000);

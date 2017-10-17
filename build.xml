@@ -1,0 +1,64 @@
+<project name="F2GAutoTests" default="generateReport" basedir=".">
+    <property name="LIB" value="${basedir}/lib" />
+    <property name="OUT" value="${basedir}/out/production/F2GAutoTests/f2g/autotests" />
+    <property name="SEL" value="${basedir}/externalLibs/selenium"/>
+    <property name="TESTNG" value="${basedir}/externalLibs/testng"/>
+    <path id="master-classpath">
+        <pathelement location="${OUT}" />
+        <fileset dir="${LIB}" includes="*.jar"/>
+        <fileset dir="." id="allLibs">
+            <include name="${LIB}/*.jar"/>
+            <include name="${SEL}/*.jar"/>
+            <include name="${TESTNG}/*.jar"/>
+        </fileset>
+    </path>
+
+    <target name="compile">
+        <javac includeantruntime="false" srcdir="./src" destdir="./staging">
+            <classpath refid="master-classpath"/>
+        </javac>
+    </target>
+
+    <taskdef name="testng" classname="org.testng.TestNGAntTask">
+        <classpath>
+            <pathelement location="${TESTNG}/lib/testng.jar"/>
+        </classpath>
+    </taskdef>
+
+    <target name="run" depends="compile">
+       <testng classpath="./staging" outputDir = "test-output" haltOnFailure="true">
+           <classpath refid="master-classpath"/>
+           <classpath location="./staging"/>
+           <xmlfileset dir="." includes="testng.xml"/>
+       </testng>
+    </target>
+
+    <taskdef resource="net/sf/antcontrib/antcontrib.properties">
+        <classpath>
+            <pathelement location="${basedir}/externalLibs/ant-contrib/ant-contrib-1.0b3.jar"/>
+        </classpath>
+    </taskdef>
+
+    <target name="generateReport">
+        <trycatch>
+            <try>
+                <antcall target="run"/>
+            </try>
+            <finally>
+                <delete dir="${basedir}/testng-xslt">
+                </delete>
+                <mkdir dir="${basedir}/testng-xslt">
+                </mkdir>
+                <xslt in="${basedir}/test-output/testng-results.xml" style="${basedir}/testng-results.xsl" out="${basedir}/testng-xslt/index.html">
+                    <param expression="${basedir}/testng-xslt/" name="testNgXslt.outputDir" />
+                    <param expression="true" name="testNgXslt.sortTestCaseLinks" />
+                    <param expression="FAIL,SKIP,PASS,CONF,BY_CLASS" name="testNgXslt.testDetailsFilter" />
+                    <param expression="true" name="testNgXslt.showRuntimeTotals" />
+                    <classpath refid="master-classpath">
+                    </classpath>
+                </xslt>
+            </finally>
+        </trycatch>
+    </target>
+
+</project>

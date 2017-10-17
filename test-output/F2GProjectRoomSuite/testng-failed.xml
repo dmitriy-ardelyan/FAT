@@ -6,7 +6,7 @@
       <class name="f2g.autotests.F2GProjectRoomsTest">
         <methods>
           <include name="uploadFileToProjectRoomTest"/>
-          <include name="createProjectRoomOnTabTest"/>
+          <include name="AfterClass"/>
           <include name="deleteProjectRoomTest"/>
           <include name="BeforeClass"/>
           <include name="editSettingsTest"/>

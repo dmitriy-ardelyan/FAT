@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [F2GProjectRoomSuite]">
-  <test name="F2GProjectRoomSuite(failed)">
+<suite name="Failed suite [F2GUsersSuite]">
+  <test name="F2GUsersSuite(failed)">
     <classes>
-      <class name="f2g.autotests.F2GProjectRoomsTest">
+      <class name="f2g.autotests.F2GUsersTest">
         <methods>
-          <include name="uploadFileToProjectRoomTest"/>
-          <include name="createProjectRoomOnTabTest"/>
-          <include name="deleteProjectRoomTest"/>
+          <include name="editUserTest"/>
+          <include name="deleteUserTest"/>
+          <include name="createUserTest"/>
           <include name="BeforeClass"/>
-          <include name="editSettingsTest"/>
-          <include name="sendLinkToProjectRoomTest"/>
         </methods>
-      </class> <!-- f2g.autotests.F2GProjectRoomsTest -->
+      </class> <!-- f2g.autotests.F2GUsersTest -->
     </classes>
-  </test> <!-- F2GProjectRoomSuite(failed) -->
-</suite> <!-- Failed suite [F2GProjectRoomSuite] -->
+  </test> <!-- F2GUsersSuite(failed) -->
+</suite> <!-- Failed suite [F2GUsersSuite] -->
